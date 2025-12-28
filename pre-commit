@@ -8,7 +8,7 @@ black $files
 
 #————————————————
 
-# Run Flake8 for linking
+# Run Flake8 for potential errors, bugs, stylistic issues, and suspicious constructs without actually running the code.
 ccho “Running Flake8 for linting……..”
 flake8 $files
 
